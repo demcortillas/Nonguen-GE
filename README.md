@@ -19,7 +19,7 @@ las sentencias básicas para el mejor manejo del código. </p>
 para realizar el proceso reclasificatorio mediante el método *random forest*, y es este script en conjunto con las variables globales de la consola (que no podemos acceder
 pero que podemos ver su pantallazo) lo que nos llevará al resultado final.</p>
 
-![Pantallazo de las variables ocupadas](/IMAGENES/Pantallazos_variables/variales1.png)
+![Pantallazo de las variables ocupadas](/IMAGENES/Pantallazos_variables/variables1.png)
 
 > Para consultas y/o aportes en el proceso contactar a este correo: diegmedina@udec.cl
 
