@@ -10,12 +10,12 @@ actualizando a medida que se afinen los puntos para entrenar las firmas espectra
 a las variables que se almacenan en dicha consola, se tomará un pantallazo de las variables para afinar tratamientos de dudas 
 posterior al respecto de qué significa cada variable.</p>
 
-<p> El archivo ![1.-intro_js.js](https://github.com/demcortillas/Nonguen-GE/blob/main/1.-intro_js.js) consiste en una introducción a lo básico de  *js*
+<p> El archivo [1-intro.js](/blob/main/1.-intro_js.js) consiste en una introducción a lo básico de  *js*
  que incluye los tipos de datos, los objetos, métodos de string, métodos de arrays, composición de funciones, operadores lógicos, loops y un otras cosas
 básicas para el manejo del programa. Si bien *GEE* tiene su propia manera de interactuar un poco diferente a una consola de *js*, siempre pueden ser útiles
 las sentencias básicas para el mejor manejo del código. </p>
 
-<p> El archivo ![2.-reclass_nonguen.js](https://github.com/demcortillas/Nonguen-GE/blob/main/2.-reclass_nonguen.js) contiene las sentencias ocupadas
+<p> El archivo [2-reclass_nonguen.js](/blob/main/2.-reclass_nonguen.js) contiene las sentencias ocupadas
 para realizar el proceso reclasificatorio mediante el método *random forest*, y es este script en conjunto con las variables globales de la consola (que no podemos acceder
 pero que podemos ver su pantallazo) lo que nos llevará al resultado final.</p>
 
