@@ -19,13 +19,13 @@ las sentencias básicas para el mejor manejo del código. </p>
 para realizar el proceso reclasificatorio mediante el método *random forest*, y es este script en conjunto con las variables globales de la consola (que no podemos acceder
 pero que podemos ver su pantallazo) lo que nos llevará al resultado final.</p>
 
-![Pantallazo de las variables ocupadas](/IMAGENES/Pantallazos variables/variales1.png)
+![Pantallazo de las variables ocupadas](/IMAGENES/Pantallazos_variables/variales1.png)
 
 > Para consultas y/o aportes en el proceso contactar a este correo: diegmedina@udec.cl
 
 ## Estado del proceso
 
-![Pantallazo de la última clasificación de coberturas de suelo](/IMAGENES/Pantallazos reclass/reclass_1.png)
+![Pantallazo de la última clasificación de coberturas de suelo](/IMAGENES/Pantallazos_reclass/reclass_1.png)
 
 > Para descargar la imagen en formato *Geotiff* [click aquí](https://drive.google.com/file/d/1s3pQFgFP17JjhZU2eG-B7VdR7W3xF7Lv/view?usp=sharing)
 
