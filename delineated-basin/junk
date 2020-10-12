@@ -1,0 +1,4 @@
+GISDBASE: grassdata
+LOCATION_NAME: newLocation
+MAPSET: PERMANENT
+GRASS_GUI: text
