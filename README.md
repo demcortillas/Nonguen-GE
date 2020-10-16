@@ -33,4 +33,4 @@ pero que podemos ver su pantallazo) lo que nos llevará al resultado final.
 
 ## Delimitación por cuencas aledañas de la reserva nonguen
 
-![prueba](https://github.com/demcortillas/Nonguen-GE/blob/main/delineated-basin/data_vectorial/geojson/cuencas_nonguen.geojson)
+<script src="https://embed.github.com/view/geojson/demcortillas/NONGUEN-GE/main/delineated-basin/data_vectorial/geojson/parque_nonguen.geojson"></script>
