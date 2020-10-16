@@ -19,18 +19,25 @@ El archivo [2-reclass_nonguen.js](https://github.com/demcortillas/Nonguen-GE/blo
 para realizar el proceso reclasificatorio mediante el método *random forest*, y es este script en conjunto con las variables globales de la consola (que no podemos acceder
 pero que podemos ver su pantallazo) lo que nos llevará al resultado final.
 
-#### Últimas variables ocupadas
+## Clasificación de coberturas de suelo
 
-![Pantallazo de las variables ocupadas](/IMAGENES/Pantallazos_variables/variables1.png)
+### Aproximación 1:
+
+Esta estimación se realiza como forma experimental mediante un buffer de 5km al rededor del límite de la reserva
+
+![Clasificación con 5km de buffer de límite de la reserva]()
+
+Click [aquí]() para descargar los puntos utilizados
+Para descargar la imagen en formato *Geotiff* [click aquí](https://drive.google.com/file/d/1s3pQFgFP17JjhZU2eG-B7VdR7W3xF7Lv/view?usp=sharing) 
+
+### Aproximación 2:
+
+Delimitación por cuencas aledañas de la reserva nonguen esta se realiza mediante la delimitación de las cuencas hidrográficas aledañas al parque Nonguén.
+Se realiza a partir de una imagen srt (click [aquí]() para descargarla) y mediante un proceso de delimitación de cuencas que se describe [en esta carpeta]()
+
+![Clasificación considerando cuencas aledañas de la reserva]()
+
+Click [aquí]() para descargar los puntos utilizados
+Para descargar la imagen en formato *Geotiff* [click aquí]() 
 
 > Para consultas y/o aportes en el proceso contactar a este correo: diegmedina@udec.cl
-
-#### Estado del proceso: última actualización
-
-![Pantallazo de la última clasificación de coberturas de suelo](/IMAGENES/Pantallazos_reclass/reclass_1.png)
-
-> Para descargar la imagen en formato *Geotiff* [click aquí](https://drive.google.com/file/d/1s3pQFgFP17JjhZU2eG-B7VdR7W3xF7Lv/view?usp=sharing)
-
-## Delimitación por cuencas aledañas de la reserva nonguen
-
-<script src="https://embed.github.com/view/geojson/demcortillas/NONGUEN-GE/main/delineated-basin/data_vectorial/geojson/parque_nonguen.geojson"></script>
