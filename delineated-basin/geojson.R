@@ -12,13 +12,13 @@ cuencas_nonguen_SA  <- readOGR(dsn = "data_vectorial/Limites/CUENCAS", layer = "
 AU                  <- readOGR(dsn = "data_vectorial/Bases", layer = "URB", verbose = FALSE)
 comunas             <- readOGR(dsn = "data_vectorial/Comunas", layer = "comunas", verbose = FALSE)
 
-# Reproyección que github exije para desplegar los geojson ---> "+proj=lcc +lat_1=-20 +lat_2=-10 +datum=WGS84"
+# Reproyección que github exije para desplegar los geojson ---> "+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=198,881,317,0,0,0,0 +units=m +no_defs +to +proj=longlat +datum=WGS84 +no_defs"
 
-parque_nonguen     <- spTransform(parque_nonguen, CRS("+proj=lcc +lat_1=-20 +lat_2=-10 +datum=WGS84"))
-cuencas_nonguen    <- spTransform(cuencas_nonguen, CRS("+proj=lcc +lat_1=-20 +lat_2=-10 +datum=WGS84"))
-cuencas_nonguen_SA <- spTransform(cuencas_nonguen_SA, CRS("+proj=lcc +lat_1=-20 +lat_2=-10 +datum=WGS84"))
-AU                 <- spTransform(AU, CRS("+proj=lcc +lat_1=-20 +lat_2=-10 +datum=WGS84"))
-comunas            <- spTransform(comunas, CRS("+proj=lcc +lat_1=-20 +lat_2=-10 +datum=WGS84"))
+parque_nonguen     <- spTransform(parque_nonguen,      CRS("+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=198,881,317,0,0,0,0 +units=m +no_defs +to +proj=longlat +datum=WGS84 +no_defs"))
+cuencas_nonguen    <- spTransform(cuencas_nonguen,     CRS("+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=198,881,317,0,0,0,0 +units=m +no_defs +to +proj=longlat +datum=WGS84 +no_defs"))
+cuencas_nonguen_SA <- spTransform(cuencas_nonguen_SA,  CRS("+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=198,881,317,0,0,0,0 +units=m +no_defs +to +proj=longlat +datum=WGS84 +no_defs"))
+AU                 <- spTransform(AU,                  CRS("+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=198,881,317,0,0,0,0 +units=m +no_defs +to +proj=longlat +datum=WGS84 +no_defs"))
+comunas            <- spTransform(comunas,             CRS("+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=198,881,317,0,0,0,0 +units=m +no_defs +to +proj=longlat +datum=WGS84 +no_defs"))
 
 # Transformación a geojson
 
