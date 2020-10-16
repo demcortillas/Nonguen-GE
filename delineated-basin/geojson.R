@@ -1,0 +1,22 @@
+library(rgdal)
+library(geojsonio)
+library(spdplyr)
+library(rmapshaper)
+
+parque_nonguen      <- readOGR(dsn = "data_vectorial/Reserva", layer = "RESERVA_NONGUEN", verbose = FALSE)
+cuencas_nonguen     <- readOGR(dsn = "data_vectorial/Limites/CUENCAS", layer = "CUENCA3", verbose = FALSE)
+cuencas_nonguen_SA  <- readOGR(dsn = "data_vectorial/Limites/CUENCAS", layer = "CUENCA4", verbose = FALSE)
+AU                  <- readOGR(dsn = "data_vectorial/Bases", layer = "URB", verbose = FALSE)
+comunas             <- readOGR(dsn = "data_vectorial/Comunas", layer = "comunas", verbose = FALSE)
+
+parque_nonguen      <- geojson_json(parque_nonguen)
+cuencas_nonguen     <- geojson_json(cuencas_nonguen)
+cuencas_nonguen_SA  <- geojson_json(cuencas_nonguen_SA)
+AU                  <- geojson_json(AU)
+comunas             <- geojson_json(comunas)
+
+geojson_write(parque_nonguen, file = "data_vectorial/geojson/parque_nonguen.geojson")
+geojson_write(cuencas_nonguen, file = "data_vectorial/geojson/cuencas_nonguen.geojson")
+geojson_write(cuencas_nonguen_SA, file = "data_vectorial/geojson/cuencas_nonguen_SA.geojson")
+geojson_write(AU, file = "data_vectorial/geojson/AU.geojson")
+geojson_write(comunas, file = "data_vectorial/geojson/comunas.geojson")
