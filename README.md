@@ -44,5 +44,6 @@ Se realiza a partir de una imagen srt (click [aquí](https://github.com/demcortil
 Click [aquí](https://github.com/demcortillas/Nonguen-GE/tree/main/data_vectorial/Limites/CUENCAS) para descargar el polígono `.shp` utilizado como límite con nombre *CUENCA4*
 Para descargar la imagen en formato *Geotiff* [click aquí](https://drive.google.com/file/d/1MBDi7JnzcvyaS6PkBwMytO258BxFfRWf/view?usp=sharing) 
 
-<p>Para consultas y/o aportes en el proceso contactar a este correo: diegmedina@udec.cl</p>
-<p>Para descargar la cartografía en formato `.pdf` click [aquí](https://github.com/demcortillas/Nonguen-GE/blob/main/CARTOS/CARTO1.pdf)</p>
+Para consultas y/o aportes en el proceso contactar a este correo: diegmedina@udec.cl
+
+Para descargar la cartografía en formato `.pdf` click [aquí](https://github.com/demcortillas/Nonguen-GE/blob/main/CARTOS/CARTO1.pdf)
